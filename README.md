@@ -1,4 +1,4 @@
-# Frui-Warehouse
+# Fruit-Warehouse
 Basic C Database Programming Project
 
 This project is alpha so it means you may cannot run the program flawlessly or you may take errors. 

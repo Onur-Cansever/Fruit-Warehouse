@@ -5,7 +5,20 @@ struct fruit {
 };
 typedef struct fruit Fruit;
 
+Fruit * addFruit(Fruit * headOfFruit, char * name, char * price);
+void printFruits(Fruit * headOfFruit);
+Fruit * findFruit(Fruit * headOfFruit, char * name);
+Fruit * deleteFruit(Fruit * headOfFruit, char * name);
+
+
+
+
 Fruit * addFruit(Fruit * headOfFruit, char * name, char * price) {
+    if(findFruit(headOfFruit, name) != NULL) {
+        printf("There is same fruit already.\n");
+        return headOfFruit;
+    }
+    
     if(headOfFruit == NULL) {
         headOfFruit = (Fruit *)malloc(sizeof(Fruit));
         headOfFruit->name = (char*)malloc(sizeof(char) * 32);

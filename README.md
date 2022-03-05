@@ -12,3 +12,8 @@ What can your do with this program ?
 Note: All datas hiding with Caesar's encryption method.
 
 Have a nice day. Carpe diem!!
+
+How to run:
+
+1- gcc main.c
+2- ./a.out (for unix deriatives or unix similiar systems)

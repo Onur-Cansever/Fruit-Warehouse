@@ -1,9 +1,14 @@
 # Fruit-Warehouse
-Basic C Database Programming Project
+Basic Database Programming Project
 
-This project is alpha so it means you may cannot run the program flawlessly or you may take errors. 
+What can your do with this program ?
 
-The program's main aim is give the chance about managing the own database to user. All users can create an account and login the program then create own fruit warehouse database.
+- Users can register or login the user database.
 
-This project will be more stabler soon and will add more comment lines, will be add detailed user handbook too. 
-Have a nice day.
+- Users can create his fruit warehouse and they can edit it.
+
+
+
+Note: All datas hiding with Caesar's encryption method.
+
+Have a nice day. Carpe diem!!

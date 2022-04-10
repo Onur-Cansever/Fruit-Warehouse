@@ -1,7 +1,7 @@
 # Fruit-Warehouse
 Basic Database Programming Project
 
-What can your do with this program ?
+What can you do with this program ?
 
 - Users can register or login the user database.
 
